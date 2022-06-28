@@ -1,7 +1,7 @@
 #!/usr/bin/python3
-for n in range (0,10):
-    for x in range (n,10):
-        if n == 9 and x == 9:
-            print("{}{}".format(n,x))
+for a in range(0, 10):
+    for b in range(a + 1, 10):
+        if a == 8 and b == 9:
+            print("{}{}".format(a, b))
         else:
-            print("{}{}".format(n,x),end=", ")
+            print("{}{}".format(a, b), end=", ")
