@@ -7,8 +7,6 @@ if __name__ == "__main__":
 
     from calculator_1 import add, sub, mul, div
     
-    a = int(sys.argv[1])
-    b = int(sys.argv[3])
     count = len(sys.argv) - 1
     if count != 3:
         print("Usage: ./100-my_calculator.py <a> <operator> <b>\n")
@@ -17,4 +15,6 @@ if __name__ == "__main__":
     if sys.argv[2] not in list(ops.keys()):
         print("Unknown operator. Available operators: +, -, * and /\n")
         sys.exit(1)
+    a = int(sys.argv[1])
+    b = int(sys.argv[3])
     print(f"{a} {sys.argv[2]} {b} = {ops[sys.argv[2]](a, b)}")
