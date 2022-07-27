@@ -11,5 +11,4 @@ class LockedClass():
 
     def __init__(self):
         """Creates new instance of LockedClass."""
-        
         self.first_name = "first_name"
