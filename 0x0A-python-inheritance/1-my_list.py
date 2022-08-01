@@ -4,7 +4,8 @@
 
 class MyList(list):
     """
-    Args: mylist: list to sort in ascending order 
+    Args:
+        mylist: list to sort in ascending order
     """
     def print_sorted(self):
         """
