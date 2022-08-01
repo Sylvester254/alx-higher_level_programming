@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+"""Defines a function to check sub-class"""
+
+
 def inherits_from(obj, a_class):
     """
     function that checks if the object is
