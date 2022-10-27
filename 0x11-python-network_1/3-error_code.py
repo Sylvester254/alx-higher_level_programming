@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """Python script that takes in a URL, sends a request to the URL
-manage urllib.error.HTTPError exceptions and print: 
+manage urllib.error.HTTPError exceptions and print:
 Error code: followed by the HTTP status code
 """
 import urllib.request
