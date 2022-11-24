@@ -1,5 +1,9 @@
 # Javascript - Web JQuery
 ![alt](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/305/4724718.jpg)
+## Concepts
+- [JavaScript in the browser](./JavaScript.md)
+- [Dealing with data statically versus dynamically](./StaticVSdynamic.md)
+
 ## Resources
 - [What is JavaScript?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript)
 - [Selector](https://jquery-tutorial.net/selectors/using-elements-ids-and-classes/)
